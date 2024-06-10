@@ -1,13 +1,17 @@
-# Automation project
+# Экзаменационная работа по поиску тегов в файлах.
 
------
+-----------------------
+# Поставлена задача: нужно проверить что все html теги: p, button, h2, h, имеют метку i18n.
 
-Use this command to install
-```bash
-pip install - r requiments.txt
-```
+Для более полного понимания, где храниться ошибка, нужно выводить следующую информацию:
+* Файл
+* номер строчки: строка в которой есть ошибка.
+-----------------------
+Для того чтобы начать работу, необходимо клонировать репозиторий с помощью командыЖ
+git clone https://github.com/qahelping/test-i18n.git
+------------------------
+Помогают в работе установленные линтеры и библиотеки:
+* flake8
+* BeautifulSoup (Перед установкой рекомендуется изучить информацию: https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 
-Automation for [https://github.com/] (https://github.com/DaryaMartsinkevich/tms_QAP18_Martsinkevich
-```python
-print ("Hello word")
-```
+
